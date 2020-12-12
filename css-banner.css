@@ -1,0 +1,290 @@
+html * {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  /*COLOR: WHITE; /* ESTA ID FOI CRIADA NO HEADER, E O H1 ESTÁ DENTRO DO HEADER */
+  background-color: orange;
+  background-image: url(img/muro-escola.jpg);
+  background-repeat: no-repeat; /* COLOQUEI ROUND AQUI E A IMAGEM APARECEU COMO EU QUERIA EBAAA */ /* se a imagem é muito pequena, pra não gerar mosaico, se quiser coloque repeat */
+  background-position: center;
+  background-size: cover; /* cubra too o espaço disponivel */
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  /*font-size: 48px;*/
+}
+#crono {
+  /*COLOR: WHITE; /* ESTA ID FOI CRIADA NO HEADER, E O H1 ESTÁ DENTRO DO HEADER */
+  background-color: orange;
+  background-image: url(img/calendar1.jpg);
+  background-repeat: no-repeat; /* COLOQUEI ROUND AQUI E A IMAGEM APARECEU COMO EU QUERIA EBAAA */ /* se a imagem é muito pequena, pra não gerar mosaico, se quiser coloque repeat */
+  background-position: center;
+  background-size: cover; /* cubra too o espaço disponivel */
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#google {
+  /*COLOR: WHITE; /* ESTA ID FOI CRIADA NO HEADER, E O H1 ESTÁ DENTRO DO HEADER */
+  background-color: orange;
+  background-image: url(img/googleclassroom.png);
+  background-repeat: no-repeat; /* COLOQUEI ROUND AQUI E A IMAGEM APARECEU COMO EU QUERIA EBAAA */ /* se a imagem é muito pequena, pra não gerar mosaico, se quiser coloque repeat */
+  background-position: center;
+  background-size: cover; /* cubra too o espaço disponivel */
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  /*font-size: 48px;*/
+}
+
+#zap {
+  /*COLOR: WHITE; /* ESTA ID FOI CRIADA NO HEADER, E O H1 ESTÁ DENTRO DO HEADER */
+  background-color: orange;
+  background-image: url(img/communication.jpg);
+  background-repeat: no-repeat; /* COLOQUEI ROUND AQUI E A IMAGEM APARECEU COMO EU QUERIA EBAAA */ /* se a imagem é muito pequena, pra não gerar mosaico, se quiser coloque repeat */
+  background-position: center;
+  background-size: cover; /* cubra too o espaço disponivel */
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  /*font-size: 48px;*/
+}
+h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.gridnav {
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 8px;
+  background-color: #78C1FF;
+  /*border-radius: 8px;
+  margin: 10px 20px;*/
+  position:sticky;
+  top: 0;
+  /*padding: 5px;*/
+  /*font-weight: bold;*/
+  text-shadow: 2px 2px #D3D3D3;
+}
+.center{
+  text-align: center;
+  font-size: 20px;
+}
+nav > a, nav > .logo {
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+}
+
+nav > .logo {
+  max-width: 70px;
+}
+
+nav > a {
+  color: #424242;
+  padding: 16px;
+  font-size: 20px;
+  font-family:sans-serif;
+}
+
+nav > a:hover {
+  text-decoration: none;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 8px;
+}
+
+H2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30PX;
+  text-align: center;
+  color:#424242;
+  /*background-color: PINK;*/
+  /*grid-column: 1 / 4;*/
+  border-radius: 8px;
+  margin: 10px 20px;
+  padding: 15px;
+}
+
+.font {
+  FONT-SIZE: 24PX;
+  /*border: 10px black;*/
+}
+.fonth3{
+  text-align: center;
+  font-size: 20px;
+  background-color: yellow;
+  margin: 20px 10px;
+  padding: 20px 10px;
+}
+ul{
+  list-style-position: inside;
+}
+img {
+  max-width: 100%; /* tenha o tamanho de 100% da caixa onde estão inseridas, e a imagem se encaixa dentro do navegador, responsivo */
+  border-radius: 8px;
+}
+
+p {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  color:black ;
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  opacity: 0.7;
+/*  margin: 10PX;*/
+  padding: 10PX;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: #78C1FF;
+  text-decoration:  underline;
+  opacity: 0.7 ; /*transparencia a fonte 1 é 100% valores decimais*/
+
+}
+
+footer {
+  background-color: #78C1FF;
+  margin: 0px;
+  color: #3D3D3D;
+  padding: 10px;
+  /*border-radius: 8px;*/
+  text-align:center;
+  /*font-size: 24px;*/
+  text-shadow: 20px;
+  /*background-image: url(img/footer-1.jpg); */
+  /*background-position: center; /* alinhamento, posicionar a imagem */
+  /*background-repeat: no-repeat; /* se a imagem é muito pequena, pra não gerar mosaico, se quiser coloque repeat */
+  /*background-size: cover; /* cubra too o espaço disponivel */
+}
+.gridfooter{
+  display: grid; /* indica que a caixa será uma grid */
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 10px 20px;
+}
+.footerimg{
+  background-color: orange;
+  /*background-image: url(img/logoface.png);*/
+  background-repeat: no-repeat; /* COLOQUEI ROUND AQUI E A IMAGEM APARECEU COMO EU QUERIA EBAAA */ /* se a imagem é muito pequena, pra não gerar mosaico, se quiser coloque repeat */
+  background-position: center;
+  background-size: cover; /* cubra too o espaço disponivel */
+  height: 50px;
+  width: 50px;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;
+  text-align: center;*/
+
+  justify-self: center;
+  text-align: center;
+  align-self: center
+}
+
+.grid {
+  display: grid; /* indica que a caixa será uma grid */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 10px 20px;
+}
+
+.gridp2 {
+  display: grid; /* indica que a caixa será uma grid */
+  grid-template-columns: 40vw auto; /*repeat(2, 1fr);*/
+  grid-gap: 10px;
+  margin: 10px 20px;
+}
+
+.gridcrono {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 10px 20px;
+}
+.gridzap {
+  display: grid; /* indica que a caixa será uma grid */
+  grid-template-columns: 30vw auto; /*repeat(2, 1fr);*/
+  grid-gap: 10px;
+  margin: 10px 20px;
+}
+.gridul{
+  display: grid; /* indica que a caixa será uma grid */
+  grid-template-columns: repeat(6, 1fr);*/
+  grid-template-rows: AUTO;
+  grid-gap: 5px;
+  /*margin: 10px 20px;*/
+  list-style-type: none;
+}
+.gridul > p{
+  grid-column: 1 / 7;
+  text-align: center;
+}
+.gridgoogle{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin: 20px;
+}
+.card {
+  background-color: #4242;
+  padding: 26px;
+  border-radius: 8px;
+  }
+.card1 {
+  grid-column: 1 / 3;
+}
+.center-vertical{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* abaixo css do trilhas.html*/
+.imgt{
+  max-width: 100%; /* tenha o tamanho de 100% da caixa onde estão inseridas, e a imagem se encaixa dentro do navegador, responsivo */
+  border-radius: 8px;
+  width: 200px;
+
+}
+.centert { /*classe do body */
+  display: flex; /* constroi numa ordem de linha no caso o margin */
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* virtualmente igual ao tamanho da caixa 100 do tamanho que o navegador permitir */ horizontal
+}
+.caixas {
+  /* informar o tipo de display */
+  /* com eu exibo a caixa e o que tem dentro dela */
+  display: grid; /* indica que a caixa será uma grid */
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 20px; */
+   margin: 10px;
+
+   }
